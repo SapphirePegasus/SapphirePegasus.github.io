@@ -366,9 +366,9 @@ section .title{
 }
 /*hover 3d effect*/
 
-.services .serv-content .card1{
+.services .serv-content .card{
     width: calc(56% - 85px);
-    background: url("imgs/pfv.png");
+    background-color: #a6cdff ;
     background-size: 100% 100%;
     text-align: center;
     border-radius: 6px;
@@ -379,17 +379,17 @@ section .title{
     transform-style: preserve-3d;
     perspective: 1000px;
 }
-.services .serv-content .card1:hover{
+.services .serv-content .card:hover{
     background: rgb(67, 233, 122);
 }
-.services .serv-content .card1 .box{
+.services .serv-content .card .box{
     transition: all 0.3s ease;
     color: black;
 }
-.services .serv-content .card1:hover .box{
+.services .serv-content .card:hover .box{
     transform: scale(1.05);
 }
-.services .serv-content .card1 .text{
+.services .serv-content .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
@@ -397,92 +397,6 @@ section .title{
 }
 
 
-.services .serv-content .card2{
-    width: calc(56% - 85px);
-    background: url("imgs/coming.jpg");
-    text-align: center;
-    border-radius: 6px;
-    padding: 50px 25px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    margin-bottom: 30px;
-    transform-style: preserve-3d;
-    perspective: 1000px;
-}
-.services .serv-content .card2:hover{
-    background: rgb(248, 113, 113);
-}
-.services .serv-content .card2 .box{
-    transition: all 0.3s ease;
-    color: white;
-}
-.services .serv-content .card2:hover .box{
-    transform: scale(1.05);
-}
-.services .serv-content .card2 .text{
-    font-size: 25px;
-    font-weight: 500;
-    margin: 10px 0 7px 0;
-    transform: translateZ(35px);
-}
-
-
-.services .serv-content .card3{
-    width: calc(56% - 85px);
-    background: url("imgs/coming.jpg");
-    text-align: center;
-    border-radius: 6px;
-    padding: 50px 25px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    margin-bottom: 30px;
-    transform-style: preserve-3d;
-    perspective: 1000px;
-}
-.services .serv-content .card3:hover{
-    background: rgb(1, 97, 52);
-}
-.services .serv-content .card3 .box{
-    transition: all 0.3s ease;
-}
-.services .serv-content .card3:hover .box{
-    transform: scale(1.05);
-}
-.services .serv-content .card3 .text{
-    font-size: 25px;
-    font-weight: 500;
-    margin: 10px 0 7px 0;
-    transform: translateZ(35px);
-}
-
-
-.services .serv-content .card4{
-    width: calc(56% - 85px);
-    background: url("imgs/coming.jpg");
-    text-align: center;
-    border-radius: 6px;
-    padding: 50px 25px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    margin-bottom: 30px;
-    transform-style: preserve-3d;
-    perspective: 1000px;
-}
-.services .serv-content .card4:hover{
-    background: rgb(1, 97, 52);
-}
-.services .serv-content .card4 .box{
-    transition: all 0.3s ease;
-}
-.services .serv-content .card4:hover .box{
-    transform: scale(1.05);
-}
-.services .serv-content .card4 .text{
-    font-size: 25px;
-    font-weight: 500;
-    margin: 10px 0 7px 0;
-    transform: translateZ(35px);
-}
 
 /* contact section styling */
 .contact{
