@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-
+<!--Did you just click inspect? XD-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -95,9 +95,7 @@
 		    </div>
 	        </div>
             </div-->
-
-            
-            
+                 
             <!--div class="container" style="color:black;">
                 <div class="box">
                     <div class="imgBx">
@@ -179,54 +177,41 @@
             <div class="contact-content">
                 <div class="column left">
                     <img src="imgs/hello.gif">
-                    <!--div class="text">Get in Touch</div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos harum corporis fuga corrupti. Doloribus quis soluta nesciunt veritatis vitae nobis?</p>
-                    <div class="icons">
-                        <div class="row">
-                            <i class="fas fa-user"></i>
-                            <div class="info">
-                                <div class="head">Name</div>
-                                <div class="sub-title">Prakash Shahi</div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <div class="info">
-                                <div class="head">Address</div>
-                                <div class="sub-title">Surkhet, Nepal</div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <i class="fas fa-envelope"></i>
-                            <div class="info">
-                                <div class="head">Email</div>
-                                <div class="sub-title">abc@gmail.com</div>
-                            </div>
-                        </div>
-                    </div-->
                 </div>
                 <div class="column right">
-                    <div class="text">Message me</div>
-                    <form action="#">
+                    <div class="text">My socials</div>
+                    <form id="gform" name="gform" target="hidden_iframe" onsubmit="submitted=true;"
+                    action="https://docs.google.com/forms/d/e/1FAIpQLSe1hepLoC9_E68BxclQ4-IBVQ2E0kYxdJHxvFdgx_Ib0mmCaw/formResponse?">
+                        <div class="socials" style="padding: 10px;">
+                            <a href="https://github.com/SapphirePegasus" class="socialicon" style="margin-right: 70px;"><box-icon name='github' type='logo' animation='tada' color='#ffffff' ></box-icon></box-icon></a>
+                            <a href="https://twitter.com/prittam3000" class="socialicon" style="margin-right: 70px;"><box-icon name='twitter' type='logo' animation='tada' color='#ffffff' ></box-icon></a>
+                            <a href="https://www.instagram.com/prittam3000" class="socialicon" style="margin-right: 70px;"><box-icon name='instagram' type='logo' animation='tada' color='#ffffff' ></box-icon></a>
+                        </div>
+
+                        <div class="text">Message me</div>
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" name="name" placeholder="Name" required>
+                                <input type="text" name="entry.701274945" id="entry.701274945" placeholder="Name" required>
                             </div>
                             <div class="field email">
-                                <input type="email" name="email" placeholder="Email" required>
+                                <input type="email" name="entry.1182742301" id="entry.1182742301" placeholder="Email" required>
                             </div>
                         </div>
-                        <div class="field">
+                        <!--div class="field">
                             <input type="text" name="sub" placeholder="Subject" required>
-                        </div>
+                        </div-->
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" name="message" placeholder="Message.." required></textarea>
+                            <textarea cols="50" rows="10" name="entry.32105383" id="entry.32105383" placeholder="Message.." required></textarea>
                         </div>
                         <div class="button-area">
                             <button type="submit">Send Message</button><br><br><br>
                             <span style="margin-left: 15px;"></span>
                         </div>
+                        <div id="formsub" name="formsub" target="hidden_iframe" onsubmit="submitted=true;" style="color: yellow;padding-top: 10px;"></div>
                     </form>
+
+                    <iframe name="hidden_iframe" id="hidden_iframe" 
+                    style="display: none;" onload="if(submitted){}"></iframe>
                 </div>
             </div>
         </div>
@@ -239,5 +224,6 @@
 
     <script src="script/script.js"></script>
     <script src="script/vanillaTilt.js"></script>
+    
 </body>
 </html>
