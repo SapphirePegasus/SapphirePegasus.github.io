@@ -1,3 +1,4 @@
+/*php form code not for github.io
 const form = document.querySelector("form"),
 statusTxt = form.querySelector(".button-area span");
 
@@ -28,7 +29,11 @@ form.onsubmit = (e)=>{
   let formData = new FormData(form);
   xhr.send(formData);
 }
+ /*form end*/
 
+$('#gform').on('submit', function(e){
+    $('#formsub').prepend("Your response has been submitted!")
+});
 
 $(document).ready(function(){
     $(window).scroll(function(){
